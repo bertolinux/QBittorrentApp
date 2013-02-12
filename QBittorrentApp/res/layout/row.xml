@@ -1,0 +1,79 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textview_name"
+            android:layout_width="wrap_content"
+            android:layout_height="0sp"
+            android:layout_weight="1.04"
+            android:padding="10sp"
+            android:text=""
+            android:textSize="18sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/textview_size"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:padding="10sp"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.01"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:textAlignment="center" >
+
+                <ProgressBar
+                    android:id="@+id/progressbar"
+                    style="?android:attr/progressBarStyleHorizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fitsSystemWindows="false"
+                    android:max="100"
+                    android:maxHeight="48dp"
+                    android:maxWidth="16dp"
+                    android:minHeight="16dp"
+                    android:minWidth="48dip"
+                    android:paddingBottom="0dp" />
+
+                <TextView
+                    android:id="@+id/textview_progress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:padding="0sp"
+                    android:textAlignment="center"
+                    android:textSize="14sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textview_dlspeed"
+                android:layout_width="34dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.05"
+                android:padding="10sp"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/textview_eta"
+                android:layout_width="44dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.04"
+                android:padding="10sp"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+        
+    </LinearLayout>

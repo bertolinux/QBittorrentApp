@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QBittorrentApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="textview_i">TextView</string>
+    <string name="refresh">Refresh</string>
+    <string name="reset">Reset</string>
+    <string name="stop">Stop</string>
+    <string name="start">Start</string>
+    <string name="delete">Delete</string>
+    <string name="delete_from_disk">Delete from disk</string>
+    <string name="hostname">Hostname</string>
+    <string name="port">Port</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="connection_data">Connection Data</string>
+
+    <string name="confirmation">Confirmation</string>
+    <string name="confirm">Confirm</string>
+</resources>
