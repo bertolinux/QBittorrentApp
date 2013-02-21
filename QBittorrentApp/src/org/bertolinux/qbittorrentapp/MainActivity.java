@@ -79,11 +79,11 @@ public class MainActivity extends Activity {
 	    	public void onClick(View v1) {
 	    		AlertDialog.Builder confirm = new AlertDialog.Builder(myActivity);
 	    		confirm.setTitle(R.string.confirmation);
-	    		confirm.setMessage(R.string.confirm + R.string.reset);
+	    		confirm.setMessage(getResources().getString(R.string.confirm) + " " + getResources().getString(R.string.reset));
 	    		confirm.setPositiveButton("Yes",new DialogInterface.OnClickListener() {
 					public void onClick(DialogInterface dialog,int id) {
-			    		db.reset();
-			    		init();
+			    		//db.reset();
+			    		//init();
 					}
 				  });
 				confirm.setNegativeButton("No",new DialogInterface.OnClickListener() {
