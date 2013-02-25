@@ -82,8 +82,8 @@ public class MainActivity extends Activity {
 	    		confirm.setMessage(getResources().getString(R.string.confirm) + " " + getResources().getString(R.string.reset));
 	    		confirm.setPositiveButton("Yes",new DialogInterface.OnClickListener() {
 					public void onClick(DialogInterface dialog,int id) {
-			    		//db.reset();
-			    		//init();
+			    		db.reset();
+			    		init();
 					}
 				  });
 				confirm.setNegativeButton("No",new DialogInterface.OnClickListener() {
