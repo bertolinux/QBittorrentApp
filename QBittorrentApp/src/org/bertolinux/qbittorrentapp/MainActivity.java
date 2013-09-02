@@ -2,7 +2,10 @@ package org.bertolinux.qbittorrentapp;
 
 import java.util.LinkedList;
 import java.util.List;
+import java.util.TimerTask;
+
 import org.json.JSONArray;
+
 import android.os.Bundle;
 import android.annotation.SuppressLint;
 import android.app.Activity;
@@ -17,29 +20,28 @@ import android.widget.ListView;
 import android.widget.TextView;
 
 public class MainActivity extends Activity {
-	String url;
-    String username;
-    String password; 
-    QBitDatabase db;
-    MainActivity myActivity = this;
+	private QBitDatabase database;
+	private QBitConnectionData connectionData;
+	private MainActivity myActivity = this;
     
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        database = new QBitDatabase(this);
         init();
     }
     
     private void init() {
-    	db = new QBitDatabase(this);
-    	if (!db.exists())
+    	connectionData = database.getConnectionData();
+    	if (connectionData == null)
     		askConnectionData();
-    	else {
-    		url = "http://" + db.getHostname() + ":" + db.getPort();
-    		username = db.getUsername();
-    		password = db.getPassword();
+    	else 
     		showTorrents();
-    	}
+    }
+    
+    public QBitConnectionData getConnectionData() {
+    	return connectionData;
     }
     
     private void askConnectionData() {
@@ -56,7 +58,7 @@ public class MainActivity extends Activity {
 	    		String port 	= (String) ((TextView) ask.findViewById(R.id.port)).getText().toString();
 	    		String username = (String) ((TextView) ask.findViewById(R.id.username)).getText().toString();
 	    		String password = (String) ((TextView) ask.findViewById(R.id.password)).getText().toString();
-	            db.insertConnection(hostname, port, username, password);
+	    		database.insertConnection(hostname, port, username, password);
 	    		ask.dismiss();
 	    		init();
 	    	}
@@ -64,13 +66,17 @@ public class MainActivity extends Activity {
 		ask.show();
     }
     
-    private void showTorrents() {        
-    	new GetTorrentList(this).execute();   
-		
+    public void refreshTorrentList() {
+    	new GetTorrentList(this).execute(connectionData);   		
+    }
+    
+    public void showTorrents() {        
+    	refreshTorrentList();
+    	
         Button refresh 	= (Button) findViewById(R.id.refresh);
         refresh.setOnClickListener(new OnClickListener() {
 	    	public void onClick(View v1) {
-	            new GetTorrentList(MainActivity.this).execute();   
+	    		refreshTorrentList();
 	    	}
     	});
         
@@ -82,7 +88,7 @@ public class MainActivity extends Activity {
 	    		confirm.setMessage(getResources().getString(R.string.confirm) + " " + getResources().getString(R.string.reset));
 	    		confirm.setPositiveButton("Yes",new DialogInterface.OnClickListener() {
 					public void onClick(DialogInterface dialog,int id) {
-			    		db.reset();
+						database.reset();
 			    		init();
 					}
 				  });
@@ -95,25 +101,13 @@ public class MainActivity extends Activity {
 	    		dialog.show();
 	    	}
     	});
-    }
+    }   
     
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.activity_main, menu);
         return true;
-    }
-
-    public String getUrl() {
-    	return url;
-    }
-    
-    public String getUsername() {
-    	return username;
-    }
-    
-    public String getPassword() {
-    	return password;
     }
     
     @SuppressLint("NewApi")

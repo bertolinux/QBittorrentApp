@@ -7,8 +7,7 @@ import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteDatabase.CursorFactory;
 import android.database.sqlite.SQLiteOpenHelper;
 
-public class QBitDatabase {  
-
+public class QBitDatabase {
     SQLiteDatabase mDb;
     DbHelper mDbHelper;
     Context mContext;
@@ -16,55 +15,26 @@ public class QBitDatabase {
     private static final int DB_VERSION=1;
     private boolean exists = false;
     
-    private String hostname;
-    private String port;
-    private String username;
-    private String password;
-    
     public QBitDatabase(Context ctx) {
         mContext=ctx;
         mDbHelper=new DbHelper(ctx, DB_NAME, null, DB_VERSION);  
-        mDb=mDbHelper.getWritableDatabase();        
-        fetch();	    
+        mDb=mDbHelper.getWritableDatabase();    
     }
     
     public void reset() {
-    	mDb.delete(connectionMetaData.TABLE, null, null);
+    	mDb.delete(QBitConnectionData.KTABLE, null, null);
     }
     
-    private void fetch() {
-    	Cursor c = mDb.query(connectionMetaData.TABLE, null,null,null,null,null,null);
-	    if (c.getCount() == 0) {
-	    	exists = false;
-	    	return;
-	    }
-	    c.moveToFirst();
-	    hostname 	= c.getString(c.getColumnIndex(QBitDatabase.connectionMetaData.HOSTNAME_KEY));	
-	    port 		= c.getString(c.getColumnIndex(QBitDatabase.connectionMetaData.PORT_KEY));	
-	    username 	= c.getString(c.getColumnIndex(QBitDatabase.connectionMetaData.USERNAME_KEY));	
-	    password 	= c.getString(c.getColumnIndex(QBitDatabase.connectionMetaData.PASSWORD_KEY));	
-	    exists = true;
+    public QBitConnectionData getConnectionData() {
+    	Cursor cursor = mDb.query(QBitConnectionData.KTABLE, null,null,null,null,null,null);
+	    if (cursor.getCount() == 0)
+	    	return null;
+	    cursor.moveToFirst();
+	    return new QBitConnectionData(cursor);
     }
     
     public boolean exists() {
 	    return exists;
-    }
-    
-    public String getHostname() {
-    	return this.hostname;
-    }
-    
-    public String getPort() {
-    	return this.port;
-    	
-    }
-    
-    public String getUsername() {
-    	return this.username;
-    }
-    
-    public String getPassword() {
-    	return this.password;
     }
     
     public void close() {
@@ -72,53 +42,39 @@ public class QBitDatabase {
     }
     
     public void insertConnection(String hostname, String port, String username, String password) {
-            ContentValues cv=new ContentValues();
-            cv.put(connectionMetaData.HOSTNAME_KEY, hostname);
-            cv.put(connectionMetaData.PORT_KEY, port);
-            cv.put(connectionMetaData.USERNAME_KEY, username);
-            cv.put(connectionMetaData.PASSWORD_KEY, password);
-            mDb.insert(connectionMetaData.TABLE, null, cv);
-            fetch();
+        ContentValues contentview = new ContentValues();
+        contentview.put(QBitConnectionData.KHOSTNAME, hostname);
+        contentview.put(QBitConnectionData.KPORT, port);
+        contentview.put(QBitConnectionData.KUSERNAME, username);
+        contentview.put(QBitConnectionData.KPASSWORD, password);
+        mDb.insert(QBitConnectionData.KTABLE, null, contentview);
     }
    
     public Cursor fetchConnection() { 
-            return mDb.query(connectionMetaData.TABLE, null,null,null,null,null,null);              
-    }
-
-    static class connectionMetaData {
-            static final String TABLE = "connectionMetaData";
-            static final String ID = "_id";
-            static final String HOSTNAME_KEY = "hostname";
-            static final String PORT_KEY = "port";
-            static final String USERNAME_KEY = "username";
-            static final String PASSWORD_KEY = "password";
+        return mDb.query(QBitConnectionData.KTABLE, null,null,null,null,null,null);              
     }
 
     private static final String TABLE_CREATE = "CREATE TABLE IF NOT EXISTS "
-                    + connectionMetaData.TABLE 			+ " ("
-                    + connectionMetaData.ID				+ " integer primary key autoincrement, "
-                    + connectionMetaData.HOSTNAME_KEY 	+ " text not null, "
-                    + connectionMetaData.PORT_KEY 		+ " integer not null, "
-                    + connectionMetaData.USERNAME_KEY 	+ " text not null, "
-                    + connectionMetaData.PASSWORD_KEY 	+ " text not null);";
+        + QBitConnectionData.KTABLE 			+ " ("
+        + QBitConnectionData.KTABLE			+ " integer primary key autoincrement, "
+        + QBitConnectionData.KTABLE 	+ " text not null, "
+        + QBitConnectionData.KTABLE 		+ " integer not null, "
+        + QBitConnectionData.KTABLE 	+ " text not null, "
+        + QBitConnectionData.KTABLE 	+ " text not null);";
 
     private class DbHelper extends SQLiteOpenHelper { 
-
-            public DbHelper(Context context, String name, CursorFactory factory,int version) {
-                    super(context, name, factory, version);
-            }
-
-            @Override
-            public void onCreate(SQLiteDatabase _db) {
-                    _db.execSQL(TABLE_CREATE);
-            }
-
-            @Override
-            public void onUpgrade(SQLiteDatabase _db, int oldVersion, int newVersion) {
-
-            }
-
-    }
-           
-
+	    public DbHelper(Context context, String name, CursorFactory factory,int version) {
+	        super(context, name, factory, version);
+	    }
+	
+	    @Override
+	    public void onCreate(SQLiteDatabase _db) {
+	            _db.execSQL(TABLE_CREATE);
+	    }
+	
+	    @Override
+	    public void onUpgrade(SQLiteDatabase _db, int oldVersion, int newVersion) {
+	
+	    }
+    }         
 }
