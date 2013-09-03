@@ -2,6 +2,7 @@ package org.bertolinux.qbittorrentapp;
 
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Timer;
 import java.util.TimerTask;
 
 import org.json.JSONArray;
@@ -70,8 +71,12 @@ public class MainActivity extends Activity {
     	new GetTorrentList(this).execute(connectionData);   		
     }
     
-    public void showTorrents() {        
+    private void showTorrents() {        
     	refreshTorrentList();
+    	
+    	QBitTimer qbittimer = new QBitTimer();
+        Timer timer = new Timer();
+        timer.schedule(qbittimer, 10000, 10000);        	
     	
         Button refresh 	= (Button) findViewById(R.id.refresh);
         refresh.setOnClickListener(new OnClickListener() {
@@ -120,4 +125,11 @@ public class MainActivity extends Activity {
         QBitAdapter adapter = new QBitAdapter(this, R.layout.row, list);
         listview.setAdapter(adapter);
     }
+    
+    class QBitTimer extends TimerTask {
+  	  public void run() {
+  		refreshTorrentList();
+  	  }
+  	} 
+    
 }
