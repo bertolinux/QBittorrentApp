@@ -1,7 +1,9 @@
 package org.bertolinux.qbittorrentapp;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.InputStreamReader;
+import java.io.UnsupportedEncodingException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
@@ -15,6 +17,9 @@ import org.apache.http.client.CredentialsProvider;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.client.protocol.ClientContext;
+import org.apache.http.entity.mime.HttpMultipartMode;
+import org.apache.http.entity.mime.MultipartEntity;
+import org.apache.http.entity.mime.content.FileBody;
 import org.apache.http.impl.client.BasicCredentialsProvider;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.message.BasicNameValuePair;
@@ -23,10 +28,13 @@ import org.apache.http.protocol.HttpContext;
 
 import android.os.AsyncTask;
 
-public class QBitConnection extends AsyncTask<QBitConnectionData, Void, String> {
-	protected MainActivity myactivity;
+public abstract class QBitConnection extends AsyncTask<QBitConnectionData, Void, String> {
 	private String specificUrl;
 	private String hash;
+
+	protected MainActivity myactivity;
+	protected File upload; 
+	
 	public QBitConnection(MainActivity activity) {
 		myactivity = activity;
 	}
@@ -37,6 +45,28 @@ public class QBitConnection extends AsyncTask<QBitConnectionData, Void, String> 
 	
 	public void setHash(String hash) {
 		this.hash = hash;
+	}
+	
+	private void insertHash(HttpPost job) {
+		if (this.hash == null)
+			return;
+		List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>(2);
+        nameValuePairs.add(new BasicNameValuePair("hash", this.hash));
+        try {
+			job.setEntity(new UrlEncodedFormEntity(nameValuePairs));
+		} catch (UnsupportedEncodingException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}		
+	}
+	
+	private void insertUploadFile(HttpPost job) {
+		if (this.upload == null)
+			return;
+		MultipartEntity reqEntity = new MultipartEntity(HttpMultipartMode.BROWSER_COMPATIBLE);
+		reqEntity.addPart("torrentfile", new FileBody(this.upload));
+	    job.setEntity(reqEntity);	
+	    job.addHeader("Content-Type", "multipart/form-data");		    
 	}
 	
 	@Override
@@ -51,21 +81,18 @@ public class QBitConnection extends AsyncTask<QBitConnectionData, Void, String> 
 	        AuthScope scope = new AuthScope(urlObj.getHost(), urlObj.getPort());
 	        UsernamePasswordCredentials creds = new UsernamePasswordCredentials(connectionData[0].getUsername(), connectionData[0].getPassword());
 	
-	        CredentialsProvider cp = new BasicCredentialsProvider();
+	        CredentialsProvider cp = new BasicCredentialsProvider(); 
 	        cp.setCredentials(scope, creds);
 	        HttpContext credContext = new BasicHttpContext();
 	        credContext.setAttribute(ClientContext.CREDS_PROVIDER, cp);
 	
 	        HttpPost job = new HttpPost(url);
 	        
-	        if (this.hash != null) {
-		        List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>(2);
-		        nameValuePairs.add(new BasicNameValuePair("hash", hash));
-		        job.setEntity(new UrlEncodedFormEntity(nameValuePairs));		        
-	        }
+	        insertHash(job);
+	        insertUploadFile(job);
 	        
 	        HttpResponse response = httpClient.execute(host,job,credContext);	        
-	        BufferedReader rd;
+	        BufferedReader rd;   
 			rd = new BufferedReader (new InputStreamReader(response.getEntity().getContent()));
 			
 			String line = "";

@@ -1,11 +1,13 @@
 package org.bertolinux.qbittorrentapp;
 
+import java.io.File;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Timer;
 import java.util.TimerTask;
 
 import org.json.JSONArray;
+import org.json.JSONObject;
 
 import android.os.Bundle;
 import android.annotation.SuppressLint;
@@ -13,24 +15,42 @@ import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.DialogInterface;
+import android.content.Intent;
+//import android.support.v4.app.FragmentActivity;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
-
+ 
 public class MainActivity extends Activity {
-	private QBitDatabase database;
+	private static final int FILE_SELECT_CODE = 0;
+	private static final int PICK_CONTACT_REQUEST = 0;
+	private QBitDatabase database; 
 	private QBitConnectionData connectionData;
 	private MainActivity myActivity = this;
-    
+      
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+        super.onCreate(savedInstanceState); 
         setContentView(R.layout.activity_main);
         database = new QBitDatabase(this);
         init();
+    }
+    
+    private void initIntent() {
+        Intent intent = new Intent(Intent.ACTION_GET_CONTENT); 
+        intent.setType("*/*");
+        intent.addCategory(Intent.CATEGORY_OPENABLE);
+
+        try {
+            startActivityForResult(
+                    Intent.createChooser(intent, "Select txt file"),
+                    FILE_SELECT_CODE);
+        } catch (android.content.ActivityNotFoundException ex) {
+        	
+        }
     }
     
     private void init() {
@@ -68,7 +88,8 @@ public class MainActivity extends Activity {
     }
     
     public void refreshTorrentList() {
-    	new GetTorrentList(this).execute(connectionData);   		
+    	new GetTorrentList(this).execute(connectionData); 
+    	new GetTotals(this).execute(connectionData);   		
     }
     
     private void showTorrents() {        
@@ -82,6 +103,13 @@ public class MainActivity extends Activity {
         refresh.setOnClickListener(new OnClickListener() {
 	    	public void onClick(View v1) {
 	    		refreshTorrentList();
+	    	}
+    	});
+        
+        Button uploadButton = (Button) findViewById(R.id.UploadIdButton); 
+        uploadButton.setOnClickListener(new OnClickListener() {
+	    	public void onClick(View v1) {
+	    		initIntent();
 	    	}
     	});
         
@@ -116,20 +144,52 @@ public class MainActivity extends Activity {
     }
     
     @SuppressLint("NewApi")
-	public void manageTorrentList(String json) throws Exception {
-        JSONArray jsonArray = new JSONArray(json);
-        List<TDownload> list = new LinkedList<TDownload>();
-        for (int i=0; i < jsonArray.length(); i++)
-    		list.add(new TDownload(jsonArray.getJSONObject(i)));
-    	ListView listview = (ListView) findViewById(R.id.listView1);
-        QBitAdapter adapter = new QBitAdapter(this, R.layout.row, list);
-        listview.setAdapter(adapter);
+	public void manageTorrentList(String json) {
+    	try {
+	    	JSONArray jsonArray = new JSONArray(json);
+	        List<TDownload> list = new LinkedList<TDownload>();
+	        for (int i=0; i < jsonArray.length(); i++)
+	    		list.add(new TDownload(jsonArray.getJSONObject(i)));
+	    	ListView listview = (ListView) findViewById(R.id.listView1);
+	        QBitAdapter adapter = new QBitAdapter(this, R.layout.row, list);
+	        listview.setAdapter(adapter);
+    	} catch (Exception e) {
+			e.printStackTrace();
+		} 
     }
     
+	public void setTotals(String json) {
+    	try {
+    		JSONObject jsonObject = new JSONObject(json);
+    		String[] fields = { "DlInfos","UpInfos"}; 
+        	try {
+    	    	String download = jsonObject.getString(fields[0]);
+    	    	String upload = jsonObject.getString(fields[1]);
+    	        TextView totDl = (TextView) findViewById(R.id.TotDl);
+    	        TextView totUl = (TextView) findViewById(R.id.TotUl);
+    	        totDl.setText(download);
+    	        totUl.setText(upload);
+        	} catch (Exception e) {};
+	        
+    	} catch (Exception e) {
+			e.printStackTrace();
+		} 
+    }
+	
     class QBitTimer extends TimerTask {
-  	  public void run() {
+  	  public void run() { 
   		refreshTorrentList();
   	  }
   	} 
     
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (requestCode == PICK_CONTACT_REQUEST) {
+            if (resultCode == RESULT_OK) {
+            	File file = new File(data.getData().getPath());
+            	Upload myupload = new Upload(this);    	
+            	myupload.setUpload(file);
+            	myupload.execute(connectionData);
+            }
+        }
+    }
 }

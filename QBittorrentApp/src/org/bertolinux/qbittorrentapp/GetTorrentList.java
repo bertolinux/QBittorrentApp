@@ -1,17 +1,13 @@
 package org.bertolinux.qbittorrentapp;
 
-public class GetTorrentList extends QBitConnection {
+public class GetTorrentList extends QBitConnection implements QBitManagerConnection {
 	public GetTorrentList(MainActivity activity) {
 		super(activity);
 		setSpecificUrl("/json/events");
 	}
 	
-	protected void onPostExecute(String result) {
-		try {
-			myactivity.manageTorrentList(result);
-		} catch (Exception e) {
-			e.printStackTrace();
-		} 
+	public void onPostExecute(String result) {
+		myactivity.manageTorrentList(result);
   }
 
 }

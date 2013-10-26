@@ -55,12 +55,12 @@ public class QBitDatabase {
     }
 
     private static final String TABLE_CREATE = "CREATE TABLE IF NOT EXISTS "
-        + QBitConnectionData.KTABLE 			+ " ("
-        + QBitConnectionData.KTABLE			+ " integer primary key autoincrement, "
-        + QBitConnectionData.KTABLE 	+ " text not null, "
-        + QBitConnectionData.KTABLE 		+ " integer not null, "
-        + QBitConnectionData.KTABLE 	+ " text not null, "
-        + QBitConnectionData.KTABLE 	+ " text not null);";
+        + QBitConnectionData.KTABLE 	+ " ("
+        + QBitConnectionData.KID		+ " integer primary key autoincrement, "
+        + QBitConnectionData.KHOSTNAME 	+ " text not null, "
+        + QBitConnectionData.KPORT 		+ " integer not null, "
+        + QBitConnectionData.KUSERNAME 	+ " text not null, "
+        + QBitConnectionData.KPASSWORD 	+ " text not null);";
 
     private class DbHelper extends SQLiteOpenHelper { 
 	    public DbHelper(Context context, String name, CursorFactory factory,int version) {

@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:uml="http://www.eclipse.org/uml2/4.0.0/UML">
+  <notation:Diagram xmi:id="_fuhEABoAEeO2bMPgS25HMQ" type="PapyrusUMLActivityDiagram" name="NewDiagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_fuhEARoAEeO2bMPgS25HMQ" type="2001" fontName="Ubuntu" fontHeight="11" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_fuhEAhoAEeO2bMPgS25HMQ" type="5001"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_fuhEAxoAEeO2bMPgS25HMQ" type="5002"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_fuhEBBoAEeO2bMPgS25HMQ" type="7001">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_fuhEBRoAEeO2bMPgS25HMQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_fuhEBhoAEeO2bMPgS25HMQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fuhEBxoAEeO2bMPgS25HMQ"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_fuhECBoAEeO2bMPgS25HMQ" type="7002">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_fuhECRoAEeO2bMPgS25HMQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_fuhEChoAEeO2bMPgS25HMQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fuhECxoAEeO2bMPgS25HMQ"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_fuhEDBoAEeO2bMPgS25HMQ" type="7003">
+        <styles xmi:type="notation:SortingStyle" xmi:id="_fuhEDRoAEeO2bMPgS25HMQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_fuhEDhoAEeO2bMPgS25HMQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fuhEDxoAEeO2bMPgS25HMQ"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_fuhEEBoAEeO2bMPgS25HMQ" type="7004">
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fuhEERoAEeO2bMPgS25HMQ"/>
+      </children>
+      <element xmi:type="uml:Activity" href="QBittorrentApp.uml#_fufO0BoAEeO2bMPgS25HMQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fuhEEhoAEeO2bMPgS25HMQ"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_fuhEExoAEeO2bMPgS25HMQ"/>
+    <element xmi:type="uml:Activity" href="QBittorrentApp.uml#_fufO0BoAEeO2bMPgS25HMQ"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_fuiSIBoAEeO2bMPgS25HMQ" type="PapyrusUMLClassDiagram" name="NewDiagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_kY0P8BoAEeO2bMPgS25HMQ" type="2008" fontName="Ubuntu" fontHeight="11" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kY03ABoAEeO2bMPgS25HMQ" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kY03ARoAEeO2bMPgS25HMQ" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kY03AhoAEeO2bMPgS25HMQ" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kY03AxoAEeO2bMPgS25HMQ" key="displayNameLabelIcon_value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kY03BBoAEeO2bMPgS25HMQ" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kY1eEBoAEeO2bMPgS25HMQ" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_kY1eERoAEeO2bMPgS25HMQ" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_kY1eEhoAEeO2bMPgS25HMQ" type="7017">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_kY1eExoAEeO2bMPgS25HMQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_kY1eFBoAEeO2bMPgS25HMQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_kY1eFRoAEeO2bMPgS25HMQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kY1eFhoAEeO2bMPgS25HMQ"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_kY1eFxoAEeO2bMPgS25HMQ" type="7018">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_kY1eGBoAEeO2bMPgS25HMQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_kY1eGRoAEeO2bMPgS25HMQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_kY1eGhoAEeO2bMPgS25HMQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kY1eGxoAEeO2bMPgS25HMQ"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_kY1eHBoAEeO2bMPgS25HMQ" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_kY1eHRoAEeO2bMPgS25HMQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_kY1eHhoAEeO2bMPgS25HMQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_kY1eHxoAEeO2bMPgS25HMQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kY1eIBoAEeO2bMPgS25HMQ"/>
+      </children>
+      <element xmi:type="uml:Class" href="QBittorrentApp.uml#_ft_flRoAEeO2bMPgS25HMQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kY0P8RoAEeO2bMPgS25HMQ" x="30" y="510"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_lRMpcBoAEeO2bMPgS25HMQ" type="2008" fontName="Ubuntu" fontHeight="11" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lRNQgBoAEeO2bMPgS25HMQ" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lRN3kBoAEeO2bMPgS25HMQ" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lRN3kRoAEeO2bMPgS25HMQ" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lRN3khoAEeO2bMPgS25HMQ" key="displayNameLabelIcon_value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lRN3kxoAEeO2bMPgS25HMQ" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lRN3lBoAEeO2bMPgS25HMQ" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_lRN3lRoAEeO2bMPgS25HMQ" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_lROeoBoAEeO2bMPgS25HMQ" type="7017">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_lROeoRoAEeO2bMPgS25HMQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_lROeohoAEeO2bMPgS25HMQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_lROeoxoAEeO2bMPgS25HMQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lROepBoAEeO2bMPgS25HMQ"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_lROepRoAEeO2bMPgS25HMQ" type="7018">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_lROephoAEeO2bMPgS25HMQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_lROepxoAEeO2bMPgS25HMQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_lROeqBoAEeO2bMPgS25HMQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lROeqRoAEeO2bMPgS25HMQ"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_lROeqhoAEeO2bMPgS25HMQ" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_lROeqxoAEeO2bMPgS25HMQ"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_lROerBoAEeO2bMPgS25HMQ"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_lROerRoAEeO2bMPgS25HMQ"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lROerhoAEeO2bMPgS25HMQ"/>
+      </children>
+      <element xmi:type="uml:Class" href="QBittorrentApp.uml#_ft_gwxoAEeO2bMPgS25HMQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lRMpcRoAEeO2bMPgS25HMQ" x="610" y="350"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_KPorIBoBEeO0t5072_0Hrw" type="2008" fontName="Ubuntu" fontHeight="11" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KPvY0BoBEeO0t5072_0Hrw" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KPvY0RoBEeO0t5072_0Hrw" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KPv_4BoBEeO0t5072_0Hrw" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KPv_4RoBEeO0t5072_0Hrw" key="displayNameLabelIcon_value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KPwm8BoBEeO0t5072_0Hrw" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KPwm8RoBEeO0t5072_0Hrw" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_KPxOABoBEeO0t5072_0Hrw" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_KPxOARoBEeO0t5072_0Hrw" type="7017">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_KPxOAhoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_KPxOAxoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_KPxOBBoBEeO0t5072_0Hrw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KPxOBRoBEeO0t5072_0Hrw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_KPx1EBoBEeO0t5072_0Hrw" type="7018">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_KPx1ERoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_KPx1EhoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_KPx1ExoBEeO0t5072_0Hrw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KPx1FBoBEeO0t5072_0Hrw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_KPycIBoBEeO0t5072_0Hrw" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_KPycIRoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_KPycIhoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_KPycIxoBEeO0t5072_0Hrw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KPycJBoBEeO0t5072_0Hrw"/>
+      </children>
+      <element xmi:type="uml:Class" href="QBittorrentApp.uml#_ft_glRoAEeO2bMPgS25HMQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KPorIRoBEeO0t5072_0Hrw" x="350" y="670"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_QhQaMBoBEeO0t5072_0Hrw" type="2008" fontName="Ubuntu" fontHeight="11" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QhRoUBoBEeO0t5072_0Hrw" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QhRoURoBEeO0t5072_0Hrw" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QhSPYBoBEeO0t5072_0Hrw" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QhSPYRoBEeO0t5072_0Hrw" key="displayNameLabelIcon_value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QhSPYhoBEeO0t5072_0Hrw" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QhSPYxoBEeO0t5072_0Hrw" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_QhSPZBoBEeO0t5072_0Hrw" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_QhS2cBoBEeO0t5072_0Hrw" type="7017">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_QhS2cRoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_QhS2choBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_QhS2cxoBEeO0t5072_0Hrw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QhS2dBoBEeO0t5072_0Hrw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_QhTdgBoBEeO0t5072_0Hrw" type="7018">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_QhTdgRoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_QhTdghoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_QhTdgxoBEeO0t5072_0Hrw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QhTdhBoBEeO0t5072_0Hrw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_QhUEkBoBEeO0t5072_0Hrw" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_QhUEkRoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_QhUEkhoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_QhUEkxoBEeO0t5072_0Hrw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QhUElBoBEeO0t5072_0Hrw"/>
+      </children>
+      <element xmi:type="uml:Class" href="QBittorrentApp.uml#_ft_gHBoAEeO2bMPgS25HMQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QhQaMRoBEeO0t5072_0Hrw" x="285" y="30"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_Q_xiMBoBEeO0t5072_0Hrw" type="2008" fontName="Ubuntu" fontHeight="11" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Q_yJQBoBEeO0t5072_0Hrw" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Q_yJQRoBEeO0t5072_0Hrw" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Q_yJQhoBEeO0t5072_0Hrw" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Q_ywUBoBEeO0t5072_0Hrw" key="displayNameLabelIcon_value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Q_ywURoBEeO0t5072_0Hrw" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Q_ywUhoBEeO0t5072_0Hrw" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Q_ywUxoBEeO0t5072_0Hrw" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_Q_ywVBoBEeO0t5072_0Hrw" type="7017">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_Q_ywVRoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_Q_ywVhoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_Q_ywVxoBEeO0t5072_0Hrw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q_ywWBoBEeO0t5072_0Hrw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_Q_zXYBoBEeO0t5072_0Hrw" type="7018">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_Q_zXYRoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_Q_zXYhoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_Q_zXYxoBEeO0t5072_0Hrw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q_zXZBoBEeO0t5072_0Hrw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_Q_zXZRoBEeO0t5072_0Hrw" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_Q_zXZhoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_Q_zXZxoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_Q_zXaBoBEeO0t5072_0Hrw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q_zXaRoBEeO0t5072_0Hrw"/>
+      </children>
+      <element xmi:type="uml:Class" href="QBittorrentApp.uml#_ft_gUhoAEeO2bMPgS25HMQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Q_xiMRoBEeO0t5072_0Hrw" x="500" y="190"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_RZg34BoBEeO0t5072_0Hrw" type="2008" fontName="Ubuntu" fontHeight="11" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RZiGABoBEeO0t5072_0Hrw" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RZitEBoBEeO0t5072_0Hrw" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RZitERoBEeO0t5072_0Hrw" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RZitEhoBEeO0t5072_0Hrw" key="displayNameLabelIcon_value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_RZjUIBoBEeO0t5072_0Hrw" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_RZjUIRoBEeO0t5072_0Hrw" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_RZjUIhoBEeO0t5072_0Hrw" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_RZjUIxoBEeO0t5072_0Hrw" type="7017">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_RZjUJBoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_RZjUJRoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_RZjUJhoBEeO0t5072_0Hrw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RZjUJxoBEeO0t5072_0Hrw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_RZj7MBoBEeO0t5072_0Hrw" type="7018">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_RZj7MRoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_RZj7MhoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_RZj7MxoBEeO0t5072_0Hrw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RZj7NBoBEeO0t5072_0Hrw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_RZkiQBoBEeO0t5072_0Hrw" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_RZkiQRoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_RZkiQhoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_RZkiQxoBEeO0t5072_0Hrw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RZkiRBoBEeO0t5072_0Hrw"/>
+      </children>
+      <element xmi:type="uml:Class" href="QBittorrentApp.uml#_ft_gAxoAEeO2bMPgS25HMQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_RZg34RoBEeO0t5072_0Hrw" x="190" y="510"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_SZREsBoBEeO0t5072_0Hrw" type="2008" fontName="Ubuntu" fontHeight="11" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SZSS0BoBEeO0t5072_0Hrw" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_SZS54BoBEeO0t5072_0Hrw" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SZS54RoBEeO0t5072_0Hrw" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_SZS54hoBEeO0t5072_0Hrw" key="displayNameLabelIcon_value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SZS54xoBEeO0t5072_0Hrw" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_SZTg8BoBEeO0t5072_0Hrw" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_SZTg8RoBEeO0t5072_0Hrw" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_SZTg8hoBEeO0t5072_0Hrw" type="7017">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_SZTg8xoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_SZTg9BoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_SZTg9RoBEeO0t5072_0Hrw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SZTg9hoBEeO0t5072_0Hrw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_SZUIABoBEeO0t5072_0Hrw" type="7018">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_SZUIARoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_SZUIAhoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_SZUIAxoBEeO0t5072_0Hrw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SZUIBBoBEeO0t5072_0Hrw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_SZUvEBoBEeO0t5072_0Hrw" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_SZUvERoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_SZUvEhoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_SZUvExoBEeO0t5072_0Hrw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SZUvFBoBEeO0t5072_0Hrw"/>
+      </children>
+      <element xmi:type="uml:Class" href="QBittorrentApp.uml#_ft_fohoAEeO2bMPgS25HMQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SZREsRoBEeO0t5072_0Hrw" x="700" y="190"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_UXpc8BoBEeO0t5072_0Hrw" type="2008" fontName="Ubuntu" fontHeight="11" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UXqrEBoBEeO0t5072_0Hrw" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UXqrERoBEeO0t5072_0Hrw" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UXrSIBoBEeO0t5072_0Hrw" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UXrSIRoBEeO0t5072_0Hrw" key="displayNameLabelIcon_value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UXrSIhoBEeO0t5072_0Hrw" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UXrSIxoBEeO0t5072_0Hrw" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_UXr5MBoBEeO0t5072_0Hrw" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_UXr5MRoBEeO0t5072_0Hrw" type="7017">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_UXr5MhoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_UXr5MxoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_UXr5NBoBEeO0t5072_0Hrw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UXr5NRoBEeO0t5072_0Hrw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_UXsgQBoBEeO0t5072_0Hrw" type="7018">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_UXsgQRoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_UXsgQhoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_UXsgQxoBEeO0t5072_0Hrw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UXsgRBoBEeO0t5072_0Hrw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_UXsgRRoBEeO0t5072_0Hrw" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_UXsgRhoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_UXsgRxoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_UXsgSBoBEeO0t5072_0Hrw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UXsgSRoBEeO0t5072_0Hrw"/>
+      </children>
+      <element xmi:type="uml:Class" href="QBittorrentApp.uml#_ft_ggRoAEeO2bMPgS25HMQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UXpc8RoBEeO0t5072_0Hrw" x="350" y="510"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_V2h1wBoBEeO0t5072_0Hrw" type="2008" fontName="Ubuntu" fontHeight="11" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_V2jD4BoBEeO0t5072_0Hrw" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_V2jD4RoBEeO0t5072_0Hrw" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_V2jD4hoBEeO0t5072_0Hrw" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_V2jq8BoBEeO0t5072_0Hrw" key="displayNameLabelIcon_value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_V2jq8RoBEeO0t5072_0Hrw" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_V2jq8hoBEeO0t5072_0Hrw" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_V2jq8xoBEeO0t5072_0Hrw" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_V2kSABoBEeO0t5072_0Hrw" type="7017">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_V2kSARoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_V2kSAhoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_V2kSAxoBEeO0t5072_0Hrw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V2kSBBoBEeO0t5072_0Hrw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_V2k5EBoBEeO0t5072_0Hrw" type="7018">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_V2k5ERoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_V2k5EhoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_V2k5ExoBEeO0t5072_0Hrw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V2k5FBoBEeO0t5072_0Hrw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_V2lgIBoBEeO0t5072_0Hrw" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_V2lgIRoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_V2lgIhoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_V2lgIxoBEeO0t5072_0Hrw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V2lgJBoBEeO0t5072_0Hrw"/>
+      </children>
+      <element xmi:type="uml:Class" href="QBittorrentApp.uml#_ft_f4BoAEeO2bMPgS25HMQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V2h1wRoBEeO0t5072_0Hrw" x="700" y="30"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_V4wDUBoBEeO0t5072_0Hrw" type="2008" fontName="Ubuntu" fontHeight="11" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_V4wqYBoBEeO0t5072_0Hrw" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_V4wqYRoBEeO0t5072_0Hrw" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_V4wqYhoBEeO0t5072_0Hrw" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_V4wqYxoBEeO0t5072_0Hrw" key="displayNameLabelIcon_value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_V4wqZBoBEeO0t5072_0Hrw" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_V4wqZRoBEeO0t5072_0Hrw" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_V4wqZhoBEeO0t5072_0Hrw" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_V4wqZxoBEeO0t5072_0Hrw" type="7017">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_V4wqaBoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_V4wqaRoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_V4wqahoBEeO0t5072_0Hrw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V4wqaxoBEeO0t5072_0Hrw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_V4xRcBoBEeO0t5072_0Hrw" type="7018">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_V4xRcRoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_V4xRchoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_V4xRcxoBEeO0t5072_0Hrw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V4xRdBoBEeO0t5072_0Hrw"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_V4xRdRoBEeO0t5072_0Hrw" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_V4xRdhoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_V4xRdxoBEeO0t5072_0Hrw"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_V4xReBoBEeO0t5072_0Hrw"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V4xReRoBEeO0t5072_0Hrw"/>
+      </children>
+      <element xmi:type="uml:Class" href="QBittorrentApp.uml#_fuAGphoAEeO2bMPgS25HMQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_V4wDURoBEeO0t5072_0Hrw" x="705" y="670"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_fuiSIRoAEeO2bMPgS25HMQ"/>
+    <element xmi:type="uml:Package" href="QBittorrentApp.uml#_coDCVBoAEeO2bMPgS25HMQ"/>
+    <edges xmi:type="notation:Connector" xmi:id="_KylnMBoBEeO0t5072_0Hrw" type="4002" source="_kY0P8BoAEeO2bMPgS25HMQ" target="_KPorIBoBEeO0t5072_0Hrw" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Kym1UBoBEeO0t5072_0Hrw" type="6007">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Kym1URoBEeO0t5072_0Hrw" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_KymOQBoBEeO0t5072_0Hrw" fontName="Ubuntu" fontHeight="11"/>
+      <element xmi:type="uml:Generalization" href="QBittorrentApp.uml#_ft_flhoAEeO2bMPgS25HMQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_KymOQRoBEeO0t5072_0Hrw" points="[0, 0, -286, -60]$[286, 60, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_X03xwBoBEeO0t5072_0Hrw" id="(0.5,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_X03xwRoBEeO0t5072_0Hrw" id="(0.16037735849056603,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_V26QQBoBEeO0t5072_0Hrw" type="4001" source="_V2h1wBoBEeO0t5072_0Hrw" target="_SZREsBoBEeO0t5072_0Hrw" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_V263UhoBEeO0t5072_0Hrw" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V27eYBoBEeO0t5072_0Hrw" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_V27eYRoBEeO0t5072_0Hrw" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V27eYhoBEeO0t5072_0Hrw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_V27eYxoBEeO0t5072_0Hrw" type="6003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V27eZBoBEeO0t5072_0Hrw" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_V27eZRoBEeO0t5072_0Hrw" type="6005">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V27eZhoBEeO0t5072_0Hrw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_V27eZxoBEeO0t5072_0Hrw" type="6033">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V27eaBoBEeO0t5072_0Hrw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_V28FcBoBEeO0t5072_0Hrw" type="6034">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V28FcRoBEeO0t5072_0Hrw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_V263UBoBEeO0t5072_0Hrw" fontName="Ubuntu" fontHeight="11"/>
+      <element xmi:type="uml:Association" href="QBittorrentApp.uml#_fuAHzhoAEeO2bMPgS25HMQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_V263URoBEeO0t5072_0Hrw" points="[0, 0, 0, -60]$[0, 60, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_X094YBoBEeO0t5072_0Hrw" id="(0.5,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_X094YRoBEeO0t5072_0Hrw" id="(0.5,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_V3xy8BoBEeO0t5072_0Hrw" type="4001" source="_lRMpcBoAEeO2bMPgS25HMQ" target="_KPorIBoBEeO0t5072_0Hrw" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_V3yaABoBEeO0t5072_0Hrw" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V3zBEBoBEeO0t5072_0Hrw" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_V3zBERoBEeO0t5072_0Hrw" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V3zBEhoBEeO0t5072_0Hrw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_V3zBExoBEeO0t5072_0Hrw" type="6003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V3zBFBoBEeO0t5072_0Hrw" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_V3zoIBoBEeO0t5072_0Hrw" type="6005">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V3zoIRoBEeO0t5072_0Hrw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_V3zoIhoBEeO0t5072_0Hrw" type="6033">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V3zoIxoBEeO0t5072_0Hrw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_V3zoJBoBEeO0t5072_0Hrw" type="6034">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V3zoJRoBEeO0t5072_0Hrw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_V3xy8RoBEeO0t5072_0Hrw" fontName="Ubuntu" fontHeight="11"/>
+      <element xmi:type="uml:Association" href="QBittorrentApp.uml#_fuAH1BoAEeO2bMPgS25HMQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_V3xy8hoBEeO0t5072_0Hrw" points="[0, 0, 217, -220]$[-72, 60, 145, -160]$[-74, 159, 143, -61]$[-217, 220, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_X04Y0BoBEeO0t5072_0Hrw" id="(0.33,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_X04Y0RoBEeO0t5072_0Hrw" id="(0.7452830188679245,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_V4Et4BoBEeO0t5072_0Hrw" type="4001" source="_SZREsBoBEeO0t5072_0Hrw" target="_lRMpcBoAEeO2bMPgS25HMQ" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_V4FU8BoBEeO0t5072_0Hrw" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V4FU8RoBEeO0t5072_0Hrw" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_V4FU8hoBEeO0t5072_0Hrw" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V4FU8xoBEeO0t5072_0Hrw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_V4FU9BoBEeO0t5072_0Hrw" type="6003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V4FU9RoBEeO0t5072_0Hrw" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_V4FU9hoBEeO0t5072_0Hrw" type="6005">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V4FU9xoBEeO0t5072_0Hrw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_V4F8ABoBEeO0t5072_0Hrw" type="6033">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V4F8ARoBEeO0t5072_0Hrw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_V4F8AhoBEeO0t5072_0Hrw" type="6034">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V4F8AxoBEeO0t5072_0Hrw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_V4Et4RoBEeO0t5072_0Hrw" fontName="Ubuntu" fontHeight="11"/>
+      <element xmi:type="uml:Association" href="QBittorrentApp.uml#_fuAH2BoAEeO2bMPgS25HMQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_V4Et4hoBEeO0t5072_0Hrw" points="[0, 0, 73, -60]$[0, 30, 73, -30]$[-73, 60, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_X08qQBoBEeO0t5072_0Hrw" id="(0.49,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_X08qQRoBEeO0t5072_0Hrw" id="(0.66,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_V4SJQBoBEeO0t5072_0Hrw" type="4001" source="_Q_xiMBoBEeO0t5072_0Hrw" target="_lRMpcBoAEeO2bMPgS25HMQ" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_V4SwUBoBEeO0t5072_0Hrw" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V4SwURoBEeO0t5072_0Hrw" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_V4TXYBoBEeO0t5072_0Hrw" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V4TXYRoBEeO0t5072_0Hrw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_V4TXYhoBEeO0t5072_0Hrw" type="6003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V4TXYxoBEeO0t5072_0Hrw" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_V4TXZBoBEeO0t5072_0Hrw" type="6005">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V4TXZRoBEeO0t5072_0Hrw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_V4TXZhoBEeO0t5072_0Hrw" type="6033">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V4TXZxoBEeO0t5072_0Hrw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_V4T-cBoBEeO0t5072_0Hrw" type="6034">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V4T-cRoBEeO0t5072_0Hrw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_V4SJQRoBEeO0t5072_0Hrw" fontName="Ubuntu" fontHeight="11"/>
+      <element xmi:type="uml:Association" href="QBittorrentApp.uml#_fuAH2hoAEeO2bMPgS25HMQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_V4SJQhoBEeO0t5072_0Hrw" points="[0, 0, -72, -60]$[-1, 30, -73, -30]$[72, 60, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_X07cIBoBEeO0t5072_0Hrw" id="(0.5144927536231884,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_X07cIRoBEeO0t5072_0Hrw" id="(0.33,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_V4gywBoBEeO0t5072_0Hrw" type="4001" source="_lRMpcBoAEeO2bMPgS25HMQ" target="_lRMpcBoAEeO2bMPgS25HMQ" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_V4hZ0BoBEeO0t5072_0Hrw" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V4hZ0RoBEeO0t5072_0Hrw" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_V4hZ0hoBEeO0t5072_0Hrw" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V4hZ0xoBEeO0t5072_0Hrw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_V4iA4BoBEeO0t5072_0Hrw" type="6003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V4iA4RoBEeO0t5072_0Hrw" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_V4iA4hoBEeO0t5072_0Hrw" type="6005">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V4iA4xoBEeO0t5072_0Hrw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_V4iA5BoBEeO0t5072_0Hrw" type="6033">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V4iA5RoBEeO0t5072_0Hrw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_V4in8BoBEeO0t5072_0Hrw" type="6034">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V4in8RoBEeO0t5072_0Hrw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_V4gywRoBEeO0t5072_0Hrw" fontName="Ubuntu" fontHeight="11"/>
+      <element xmi:type="uml:Association" href="QBittorrentApp.uml#_fuAH3BoAEeO2bMPgS25HMQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_V4gywhoBEeO0t5072_0Hrw" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_V49esBoBEeO0t5072_0Hrw" type="4001" source="_lRMpcBoAEeO2bMPgS25HMQ" target="_V4wDUBoBEeO0t5072_0Hrw" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_V4-FwBoBEeO0t5072_0Hrw" type="6001">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V4-FwRoBEeO0t5072_0Hrw" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_V4-FwhoBEeO0t5072_0Hrw" type="6002">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V4-FwxoBEeO0t5072_0Hrw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_V4-FxBoBEeO0t5072_0Hrw" type="6003">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V4-s0BoBEeO0t5072_0Hrw" y="-20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_V4-s0RoBEeO0t5072_0Hrw" type="6005">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V4-s0hoBEeO0t5072_0Hrw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_V4-s0xoBEeO0t5072_0Hrw" type="6033">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V4-s1BoBEeO0t5072_0Hrw" y="20"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_V4-s1RoBEeO0t5072_0Hrw" type="6034">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_V4-s1hoBEeO0t5072_0Hrw" y="-20"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_V49esRoBEeO0t5072_0Hrw" fontName="Ubuntu" fontHeight="11"/>
+      <element xmi:type="uml:Association" href="QBittorrentApp.uml#_fuAH3hoAEeO2bMPgS25HMQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_V49eshoBEeO0t5072_0Hrw" points="[0, 0, -74, -220]$[74, 60, 0, -160]$[74, 220, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_X05m8BoBEeO0t5072_0Hrw" id="(0.66,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_X06OABoBEeO0t5072_0Hrw" id="(0.49,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_bAZ5oBoBEeO0t5072_0Hrw" type="4002" source="_RZg34BoBEeO0t5072_0Hrw" target="_KPorIBoBEeO0t5072_0Hrw" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_bAbu0BoBEeO0t5072_0Hrw" type="6007">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_bAbu0RoBEeO0t5072_0Hrw" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_bAZ5oRoBEeO0t5072_0Hrw" fontName="Ubuntu" fontHeight="11"/>
+      <element xmi:type="uml:Generalization" href="QBittorrentApp.uml#_ft_gBBoAEeO2bMPgS25HMQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_bAZ5ohoBEeO0t5072_0Hrw" points="[0, 0, -143, -60]$[143, 60, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dSQngBoBEeO0t5072_0Hrw" id="(0.5,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dSQngRoBEeO0t5072_0Hrw" id="(0.330188679245283,0.0)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_cS41MBoBEeO0t5072_0Hrw" type="4002" source="_UXpc8BoBEeO0t5072_0Hrw" target="_KPorIBoBEeO0t5072_0Hrw" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_cS6qYBoBEeO0t5072_0Hrw" type="6007">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_cS6qYRoBEeO0t5072_0Hrw" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_cS41MRoBEeO0t5072_0Hrw" fontName="Ubuntu" fontHeight="11"/>
+      <element xmi:type="uml:Generalization" href="QBittorrentApp.uml#_ft_gghoAEeO2bMPgS25HMQ"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_cS41MhoBEeO0t5072_0Hrw" points="[0, 0, 0, -60]$[0, 60, 0, 0]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dSROkBoBEeO0t5072_0Hrw" id="(0.5,1.0)"/>
+      <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_dSROkRoBEeO0t5072_0Hrw" id="(0.5,0.0)"/>
+    </edges>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_ful8gBoAEeO2bMPgS25HMQ" type="PapyrusUMLSequenceDiagram" name="NewDiagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_ful8gRoAEeO2bMPgS25HMQ" type="2001" fontName="Ubuntu" fontHeight="11" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_ful8ghoAEeO2bMPgS25HMQ" type="5001"/>
+      <children xmi:type="notation:DecorationNode" xmi:id="_ful8gxoAEeO2bMPgS25HMQ" type="7001">
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ful8hBoAEeO2bMPgS25HMQ"/>
+      </children>
+      <element xmi:type="uml:Interaction" href="QBittorrentApp.uml#_fulVcBoAEeO2bMPgS25HMQ"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ful8hRoAEeO2bMPgS25HMQ"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_ful8hhoAEeO2bMPgS25HMQ"/>
+    <element xmi:type="uml:Interaction" href="QBittorrentApp.uml#_fulVcBoAEeO2bMPgS25HMQ"/>
+  </notation:Diagram>
+  <notation:Diagram xmi:id="_Nn_asCRMEeOTjoPpv-Dd5Q" type="PapyrusUMLClassDiagram" name="ClassDiagram" measurementUnit="Pixel">
+    <children xmi:type="notation:Shape" xmi:id="_PAkXMCRMEeOTjoPpv-Dd5Q" type="2008" fontName="Ubuntu" fontHeight="11" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PAmMYCRMEeOTjoPpv-Dd5Q" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PAmzcCRMEeOTjoPpv-Dd5Q" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PAmzcSRMEeOTjoPpv-Dd5Q" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PAmzciRMEeOTjoPpv-Dd5Q" key="displayNameLabelIcon_value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PAmzcyRMEeOTjoPpv-Dd5Q" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PAmzdCRMEeOTjoPpv-Dd5Q" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_PAnagCRMEeOTjoPpv-Dd5Q" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_PAnagSRMEeOTjoPpv-Dd5Q" type="7017">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_PAnagiRMEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_PAnagyRMEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_PAnahCRMEeOTjoPpv-Dd5Q"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PAnahSRMEeOTjoPpv-Dd5Q"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_PAnahiRMEeOTjoPpv-Dd5Q" type="7018">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_PAnahyRMEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_PAnaiCRMEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_PAnaiSRMEeOTjoPpv-Dd5Q"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PAnaiiRMEeOTjoPpv-Dd5Q"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_PAnaiyRMEeOTjoPpv-Dd5Q" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_PAnajCRMEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_PAnajSRMEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_PAnajiRMEeOTjoPpv-Dd5Q"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PAnajyRMEeOTjoPpv-Dd5Q"/>
+      </children>
+      <element xmi:type="uml:Class" href="QBittorrentApp.uml#_O_pxMCRMEeOTjoPpv-Dd5Q"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PAkXMSRMEeOTjoPpv-Dd5Q" x="65" y="230"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_PyrwoCRMEeOTjoPpv-Dd5Q" type="2008" fontName="Ubuntu" fontHeight="11" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Pys-wCRMEeOTjoPpv-Dd5Q" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Pys-wSRMEeOTjoPpv-Dd5Q" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Pys-wiRMEeOTjoPpv-Dd5Q" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Pys-wyRMEeOTjoPpv-Dd5Q" key="displayNameLabelIcon_value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Pys-xCRMEeOTjoPpv-Dd5Q" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Pys-xSRMEeOTjoPpv-Dd5Q" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_Pys-xiRMEeOTjoPpv-Dd5Q" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_Pytl0CRMEeOTjoPpv-Dd5Q" type="7017">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_Pytl0SRMEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_Pytl0iRMEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_Pytl0yRMEeOTjoPpv-Dd5Q"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Pytl1CRMEeOTjoPpv-Dd5Q"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_Pytl1SRMEeOTjoPpv-Dd5Q" type="7018">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_Pytl1iRMEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_Pytl1yRMEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_Pytl2CRMEeOTjoPpv-Dd5Q"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Pytl2SRMEeOTjoPpv-Dd5Q"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_Pytl2iRMEeOTjoPpv-Dd5Q" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_Pytl2yRMEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_Pytl3CRMEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_Pytl3SRMEeOTjoPpv-Dd5Q"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Pytl3iRMEeOTjoPpv-Dd5Q"/>
+      </children>
+      <element xmi:type="uml:Class" href="QBittorrentApp.uml#_Pyaq4CRMEeOTjoPpv-Dd5Q"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PyrwoSRMEeOTjoPpv-Dd5Q" x="260" y="204"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_QmTl8CRMEeOTjoPpv-Dd5Q" type="2008" fontName="Ubuntu" fontHeight="11" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QmUNACRMEeOTjoPpv-Dd5Q" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QmUNASRMEeOTjoPpv-Dd5Q" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QmUNAiRMEeOTjoPpv-Dd5Q" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QmUNAyRMEeOTjoPpv-Dd5Q" key="displayNameLabelIcon_value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QmUNBCRMEeOTjoPpv-Dd5Q" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QmU0ECRMEeOTjoPpv-Dd5Q" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_QmU0ESRMEeOTjoPpv-Dd5Q" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_QmU0EiRMEeOTjoPpv-Dd5Q" type="7017">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_QmU0EyRMEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_QmU0FCRMEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_QmU0FSRMEeOTjoPpv-Dd5Q"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QmU0FiRMEeOTjoPpv-Dd5Q"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_QmU0FyRMEeOTjoPpv-Dd5Q" type="7018">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_QmU0GCRMEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_QmU0GSRMEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_QmU0GiRMEeOTjoPpv-Dd5Q"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QmU0GyRMEeOTjoPpv-Dd5Q"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_QmU0HCRMEeOTjoPpv-Dd5Q" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_QmU0HSRMEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_QmU0HiRMEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_QmU0HyRMEeOTjoPpv-Dd5Q"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QmU0ICRMEeOTjoPpv-Dd5Q"/>
+      </children>
+      <element xmi:type="uml:Class" href="QBittorrentApp.uml#_QmH_wCRMEeOTjoPpv-Dd5Q"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_QmTl8SRMEeOTjoPpv-Dd5Q" x="140" y="45"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_WxCp4CRMEeOTjoPpv-Dd5Q" type="2004" fontName="Ubuntu" fontHeight="11" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WxDQ8CRMEeOTjoPpv-Dd5Q" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WxDQ8SRMEeOTjoPpv-Dd5Q" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WxDQ8iRMEeOTjoPpv-Dd5Q" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WxDQ8yRMEeOTjoPpv-Dd5Q" key="displayNameLabelIcon_value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WxDQ9CRMEeOTjoPpv-Dd5Q" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WxDQ9SRMEeOTjoPpv-Dd5Q" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_WxD4ACRMEeOTjoPpv-Dd5Q" type="5011"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_WxD4ASRMEeOTjoPpv-Dd5Q" type="7006">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_WxD4AiRMEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_WxD4AyRMEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_WxD4BCRMEeOTjoPpv-Dd5Q"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WxD4BSRMEeOTjoPpv-Dd5Q"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_WxD4BiRMEeOTjoPpv-Dd5Q" type="7007">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_WxD4ByRMEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_WxD4CCRMEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_WxD4CSRMEeOTjoPpv-Dd5Q"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WxD4CiRMEeOTjoPpv-Dd5Q"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_WxD4CyRMEeOTjoPpv-Dd5Q" type="7008">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_WxD4DCRMEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_WxD4DSRMEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_WxD4DiRMEeOTjoPpv-Dd5Q"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WxD4DyRMEeOTjoPpv-Dd5Q"/>
+      </children>
+      <element xmi:type="uml:Interface" href="QBittorrentApp.uml#_Ww444CRMEeOTjoPpv-Dd5Q"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WxCp4SRMEeOTjoPpv-Dd5Q" x="560" y="60"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_gcCIgCRMEeOTjoPpv-Dd5Q" type="2004" fontName="Ubuntu" fontHeight="11" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gcCvkCRMEeOTjoPpv-Dd5Q" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gcCvkSRMEeOTjoPpv-Dd5Q" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gcCvkiRMEeOTjoPpv-Dd5Q" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gcCvkyRMEeOTjoPpv-Dd5Q" key="displayNameLabelIcon_value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gcCvlCRMEeOTjoPpv-Dd5Q" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gcCvlSRMEeOTjoPpv-Dd5Q" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_gcCvliRMEeOTjoPpv-Dd5Q" type="5011"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_gcDWoCRMEeOTjoPpv-Dd5Q" type="7006">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_gcDWoSRMEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_gcDWoiRMEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_gcDWoyRMEeOTjoPpv-Dd5Q"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gcDWpCRMEeOTjoPpv-Dd5Q"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_gcDWpSRMEeOTjoPpv-Dd5Q" type="7007">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_gcDWpiRMEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_gcDWpyRMEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_gcDWqCRMEeOTjoPpv-Dd5Q"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gcDWqSRMEeOTjoPpv-Dd5Q"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_gcDWqiRMEeOTjoPpv-Dd5Q" type="7008">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_gcDWqyRMEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_gcDWrCRMEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_gcDWrSRMEeOTjoPpv-Dd5Q"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gcDWriRMEeOTjoPpv-Dd5Q"/>
+      </children>
+      <element xmi:type="uml:Interface" href="QBittorrentApp.uml#_gb3JYCRMEeOTjoPpv-Dd5Q"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gcCIgSRMEeOTjoPpv-Dd5Q" x="705" y="240"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_kxzO4CRMEeOTjoPpv-Dd5Q" type="2008" fontName="Ubuntu" fontHeight="11" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kxz18CRMEeOTjoPpv-Dd5Q" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kxz18SRMEeOTjoPpv-Dd5Q" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kxz18iRMEeOTjoPpv-Dd5Q" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kx0dACRMEeOTjoPpv-Dd5Q" key="displayNameLabelIcon_value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kx0dASRMEeOTjoPpv-Dd5Q" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kx0dAiRMEeOTjoPpv-Dd5Q" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_kx0dAyRMEeOTjoPpv-Dd5Q" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_kx0dBCRMEeOTjoPpv-Dd5Q" type="7017">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_kx0dBSRMEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_kx0dBiRMEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_kx0dByRMEeOTjoPpv-Dd5Q"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kx0dCCRMEeOTjoPpv-Dd5Q"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_kx0dCSRMEeOTjoPpv-Dd5Q" type="7018">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_kx0dCiRMEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_kx0dCyRMEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_kx0dDCRMEeOTjoPpv-Dd5Q"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kx0dDSRMEeOTjoPpv-Dd5Q"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_kx1EECRMEeOTjoPpv-Dd5Q" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_kx1EESRMEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_kx1EEiRMEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_kx1EEyRMEeOTjoPpv-Dd5Q"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kx1EFCRMEeOTjoPpv-Dd5Q"/>
+      </children>
+      <element xmi:type="uml:Class" href="QBittorrentApp.uml#_kxnosCRMEeOTjoPpv-Dd5Q"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kxzO4SRMEeOTjoPpv-Dd5Q" x="455" y="280"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_VxATwCRNEeOTjoPpv-Dd5Q" type="2008" fontName="Ubuntu" fontHeight="11" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VxA60CRNEeOTjoPpv-Dd5Q" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VxA60SRNEeOTjoPpv-Dd5Q" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VxA60iRNEeOTjoPpv-Dd5Q" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VxA60yRNEeOTjoPpv-Dd5Q" key="displayNameLabelIcon_value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_VxA61CRNEeOTjoPpv-Dd5Q" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_VxA61SRNEeOTjoPpv-Dd5Q" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_VxA61iRNEeOTjoPpv-Dd5Q" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_VxA61yRNEeOTjoPpv-Dd5Q" type="7017">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_VxA62CRNEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_VxA62SRNEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_VxA62iRNEeOTjoPpv-Dd5Q"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VxA62yRNEeOTjoPpv-Dd5Q"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_VxBh4CRNEeOTjoPpv-Dd5Q" type="7018">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_VxBh4SRNEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_VxBh4iRNEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_VxBh4yRNEeOTjoPpv-Dd5Q"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VxBh5CRNEeOTjoPpv-Dd5Q"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_VxBh5SRNEeOTjoPpv-Dd5Q" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_VxBh5iRNEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_VxBh5yRNEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_VxBh6CRNEeOTjoPpv-Dd5Q"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VxBh6SRNEeOTjoPpv-Dd5Q"/>
+      </children>
+      <element xmi:type="uml:Class" href="QBittorrentApp.uml#_Vw0tkCRNEeOTjoPpv-Dd5Q"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VxATwSRNEeOTjoPpv-Dd5Q" x="594" y="469"/>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_WCg6gCRNEeOTjoPpv-Dd5Q" type="2008" fontName="Ubuntu" fontHeight="11" lineColor="0">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WChhkCRNEeOTjoPpv-Dd5Q" source="ShadowFigure">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WChhkSRNEeOTjoPpv-Dd5Q" key="ShadowFigure_Value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WChhkiRNEeOTjoPpv-Dd5Q" source="displayNameLabelIcon">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WChhkyRNEeOTjoPpv-Dd5Q" key="displayNameLabelIcon_value" value="false"/>
+      </eAnnotations>
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WChhlCRNEeOTjoPpv-Dd5Q" source="QualifiedName">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WChhlSRNEeOTjoPpv-Dd5Q" key="QualifiedNameDepth" value="1000"/>
+      </eAnnotations>
+      <children xmi:type="notation:DecorationNode" xmi:id="_WChhliRNEeOTjoPpv-Dd5Q" type="5029"/>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_WCiIoCRNEeOTjoPpv-Dd5Q" type="7017">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_WCiIoSRNEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_WCiIoiRNEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_WCiIoyRNEeOTjoPpv-Dd5Q"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WCiIpCRNEeOTjoPpv-Dd5Q"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_WCiIpSRNEeOTjoPpv-Dd5Q" type="7018">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_WCiIpiRNEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_WCiIpyRNEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_WCiIqCRNEeOTjoPpv-Dd5Q"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WCiIqSRNEeOTjoPpv-Dd5Q"/>
+      </children>
+      <children xmi:type="notation:BasicCompartment" xmi:id="_WCiIqiRNEeOTjoPpv-Dd5Q" type="7019">
+        <styles xmi:type="notation:TitleStyle" xmi:id="_WCiIqyRNEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:SortingStyle" xmi:id="_WCiIrCRNEeOTjoPpv-Dd5Q"/>
+        <styles xmi:type="notation:FilteringStyle" xmi:id="_WCiIrSRNEeOTjoPpv-Dd5Q"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WCiIriRNEeOTjoPpv-Dd5Q"/>
+      </children>
+      <element xmi:type="uml:Class" href="QBittorrentApp.uml#_WCVUUCRNEeOTjoPpv-Dd5Q"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WCg6gSRNEeOTjoPpv-Dd5Q" x="300" y="440"/>
+    </children>
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_NoABwCRMEeOTjoPpv-Dd5Q"/>
+    <element xmi:type="uml:Model" href="QBittorrentApp.uml#_ft_fkBoAEeO2bMPgS25HMQ"/>
+    <edges xmi:type="notation:Connector" xmi:id="_Sp8RoCRMEeOTjoPpv-Dd5Q" type="4002" source="_PyrwoCRMEeOTjoPpv-Dd5Q" target="_QmTl8CRMEeOTjoPpv-Dd5Q" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_Sp9fwCRMEeOTjoPpv-Dd5Q" type="6007">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_Sp9fwSRMEeOTjoPpv-Dd5Q" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_Sp8RoSRMEeOTjoPpv-Dd5Q" fontName="Ubuntu" fontHeight="11"/>
+      <element xmi:type="uml:Generalization" href="QBittorrentApp.uml#_Spry8CRMEeOTjoPpv-Dd5Q"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_Sp8RoiRMEeOTjoPpv-Dd5Q" points="[-8, -7, 120, 100]$[-122, -157, 6, -50]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_SqE0gCRMEeOTjoPpv-Dd5Q" id="(0.46,0.07)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_UJ7dsCRMEeOTjoPpv-Dd5Q" type="4002" source="_PAkXMCRMEeOTjoPpv-Dd5Q" target="_QmTl8CRMEeOTjoPpv-Dd5Q" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_UJ8EwCRMEeOTjoPpv-Dd5Q" type="6007">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_UJ8EwSRMEeOTjoPpv-Dd5Q" y="40"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_UJ7dsSRMEeOTjoPpv-Dd5Q" fontName="Ubuntu" fontHeight="11"/>
+      <element xmi:type="uml:Generalization" href="QBittorrentApp.uml#_UJs0MCRMEeOTjoPpv-Dd5Q"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_UJ7dsiRMEeOTjoPpv-Dd5Q" points="[17, -16, -106, 105]$[121, -71, -2, 50]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_UKAWMCRMEeOTjoPpv-Dd5Q" id="(0.55,0.16)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_u2kfcCRMEeOTjoPpv-Dd5Q" type="4003" source="_kxzO4CRMEeOTjoPpv-Dd5Q" target="_WxCp4CRMEeOTjoPpv-Dd5Q" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_u2lGgCRMEeOTjoPpv-Dd5Q" type="6008">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_u2lGgSRMEeOTjoPpv-Dd5Q" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_u2lGgiRMEeOTjoPpv-Dd5Q" type="6009">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_u2lGgyRMEeOTjoPpv-Dd5Q" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_u2kfcSRMEeOTjoPpv-Dd5Q" fontName="Ubuntu" fontHeight="11"/>
+      <element xmi:type="uml:InterfaceRealization" href="QBittorrentApp.uml#_u2OhMCRMEeOTjoPpv-Dd5Q"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_u2kfciRMEeOTjoPpv-Dd5Q" points="[28, -40, -118, 167]$[105, -153, -41, 54]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_u2pX8CRMEeOTjoPpv-Dd5Q" id="(0.09,0.4)"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_zKMQwCRMEeOTjoPpv-Dd5Q" type="4005" source="_kxzO4CRMEeOTjoPpv-Dd5Q" target="_gcCIgCRMEeOTjoPpv-Dd5Q" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_zKM30CRMEeOTjoPpv-Dd5Q" type="6012">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_zKM30SRMEeOTjoPpv-Dd5Q" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_zKM30iRMEeOTjoPpv-Dd5Q" type="6013">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_zKM30yRMEeOTjoPpv-Dd5Q" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_zKMQwSRMEeOTjoPpv-Dd5Q" fontName="Ubuntu" fontHeight="11"/>
+      <element xmi:type="uml:Realization" href="QBittorrentApp.uml#_zJ0dUCRMEeOTjoPpv-Dd5Q"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_zKMQwiRMEeOTjoPpv-Dd5Q" points="[-19, -53, 71, 162]$[-40, -113, 50, 102]$[-64, -161, 26, 54]"/>
+    </edges>
+    <edges xmi:type="notation:Connector" xmi:id="_XUuwUCRNEeOTjoPpv-Dd5Q" type="4005" source="_WCg6gCRNEeOTjoPpv-Dd5Q" target="_VxATwCRNEeOTjoPpv-Dd5Q" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_XUvXYCRNEeOTjoPpv-Dd5Q" type="6012">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_XUv-cCRNEeOTjoPpv-Dd5Q" y="40"/>
+      </children>
+      <children xmi:type="notation:DecorationNode" xmi:id="_XUv-cSRNEeOTjoPpv-Dd5Q" type="6013">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_XUv-ciRNEeOTjoPpv-Dd5Q" y="60"/>
+      </children>
+      <styles xmi:type="notation:FontStyle" xmi:id="_XUuwUSRNEeOTjoPpv-Dd5Q" fontName="Ubuntu" fontHeight="11"/>
+      <element xmi:type="uml:Realization" href="QBittorrentApp.uml#_XUXj8CRNEeOTjoPpv-Dd5Q"/>
+      <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XUuwUiRNEeOTjoPpv-Dd5Q" points="[46, -3, -259, -3]$[314, -50, 9, -50]"/>
+      <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XU028CRNEeOTjoPpv-Dd5Q" id="(0.54,0.23)"/>
+    </edges>
+  </notation:Diagram>
+</xmi:XMI>

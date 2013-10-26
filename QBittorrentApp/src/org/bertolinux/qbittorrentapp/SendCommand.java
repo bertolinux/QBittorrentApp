@@ -2,7 +2,7 @@ package org.bertolinux.qbittorrentapp;
 
 import android.app.Dialog;
 
-public class SendCommand extends QBitConnection {
+public class SendCommand extends QBitConnection implements QBitManagerConnection {
 	private Dialog dialog;
 	
 	public SendCommand(MainActivity activity, String command, String hash, Dialog dialog) {
@@ -12,13 +12,9 @@ public class SendCommand extends QBitConnection {
 		this.dialog = dialog;
 	}
 	
-	protected void onPostExecute(String result) {
-		try {
-			dialog.dismiss();
-			myactivity.refreshTorrentList();
-		} catch (Exception e) {
-			e.printStackTrace();
-		} 
+	public void onPostExecute(String result) {
+		dialog.dismiss();
+		myactivity.refreshTorrentList();
   }
 
 }

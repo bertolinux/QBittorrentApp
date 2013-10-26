@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Composite
+	xmlns:ppel="clr-namespace:org.eclipse.papyrus.views.properties.widgets.layout"
+	xmlns="http://www.eclipse.org/xwt/presentation" xmlns:j="clr-namespace:java.lang"
+	xmlns:ppe="clr-namespace:org.eclipse.papyrus.views.properties.widgets"
+	xmlns:x="http://www.eclipse.org/xwt">
+	<Composite.layout>
+		<ppel:PropertiesLayout></ppel:PropertiesLayout>
+	</Composite.layout>
+	<Composite>
+		<Composite.layout>
+			<ppel:PropertiesLayout numColumns="2"></ppel:PropertiesLayout>
+		</Composite.layout>
+		<ppe:IntegerEditor input="{Binding}"
+			property="rootmodel:QBittorrentApp:org:bertolinux:qbittorrentapp:R_id:Delete"></ppe:IntegerEditor>
+		<ppe:IntegerEditor input="{Binding}"
+			property="rootmodel:QBittorrentApp:org:bertolinux:qbittorrentapp:R_id:DeleteFromDisk"></ppe:IntegerEditor>
+		<ppe:IntegerEditor input="{Binding}"
+			property="rootmodel:QBittorrentApp:org:bertolinux:qbittorrentapp:R_id:Start"></ppe:IntegerEditor>
+		<ppe:IntegerEditor input="{Binding}"
+			property="rootmodel:QBittorrentApp:org:bertolinux:qbittorrentapp:R_id:Stop"></ppe:IntegerEditor>
+		<ppe:IntegerEditor input="{Binding}"
+			property="rootmodel:QBittorrentApp:org:bertolinux:qbittorrentapp:R_id:TextView03"></ppe:IntegerEditor>
+		<ppe:IntegerEditor input="{Binding}"
+			property="rootmodel:QBittorrentApp:org:bertolinux:qbittorrentapp:R_id:button2"></ppe:IntegerEditor>
+		<ppe:IntegerEditor input="{Binding}"
+			property="rootmodel:QBittorrentApp:org:bertolinux:qbittorrentapp:R_id:dialoglinearlayout"></ppe:IntegerEditor>
+		<ppe:IntegerEditor input="{Binding}"
+			property="rootmodel:QBittorrentApp:org:bertolinux:qbittorrentapp:R_id:dialogtextview1"></ppe:IntegerEditor>
+		<ppe:IntegerEditor input="{Binding}"
+			property="rootmodel:QBittorrentApp:org:bertolinux:qbittorrentapp:R_id:hostname"></ppe:IntegerEditor>
+		<ppe:IntegerEditor input="{Binding}"
+			property="rootmodel:QBittorrentApp:org:bertolinux:qbittorrentapp:R_id:linearlayout1"></ppe:IntegerEditor>
+		<ppe:IntegerEditor input="{Binding}"
+			property="rootmodel:QBittorrentApp:org:bertolinux:qbittorrentapp:R_id:listView1"></ppe:IntegerEditor>
+		<ppe:IntegerEditor input="{Binding}"
+			property="rootmodel:QBittorrentApp:org:bertolinux:qbittorrentapp:R_id:menu_settings"></ppe:IntegerEditor>
+		<ppe:IntegerEditor input="{Binding}"
+			property="rootmodel:QBittorrentApp:org:bertolinux:qbittorrentapp:R_id:password"></ppe:IntegerEditor>
+		<ppe:IntegerEditor input="{Binding}"
+			property="rootmodel:QBittorrentApp:org:bertolinux:qbittorrentapp:R_id:password1"></ppe:IntegerEditor>
+		<ppe:IntegerEditor input="{Binding}"
+			property="rootmodel:QBittorrentApp:org:bertolinux:qbittorrentapp:R_id:port"></ppe:IntegerEditor>
+		<ppe:IntegerEditor input="{Binding}"
+			property="rootmodel:QBittorrentApp:org:bertolinux:qbittorrentapp:R_id:progressbar"></ppe:IntegerEditor>
+		<ppe:IntegerEditor input="{Binding}"
+			property="rootmodel:QBittorrentApp:org:bertolinux:qbittorrentapp:R_id:refresh"></ppe:IntegerEditor>
+		<ppe:IntegerEditor input="{Binding}"
+			property="rootmodel:QBittorrentApp:org:bertolinux:qbittorrentapp:R_id:reset"></ppe:IntegerEditor>
+		<ppe:IntegerEditor input="{Binding}"
+			property="rootmodel:QBittorrentApp:org:bertolinux:qbittorrentapp:R_id:save"></ppe:IntegerEditor>
+		<ppe:IntegerEditor input="{Binding}"
+			property="rootmodel:QBittorrentApp:org:bertolinux:qbittorrentapp:R_id:textView1"></ppe:IntegerEditor>
+		<ppe:IntegerEditor input="{Binding}"
+			property="rootmodel:QBittorrentApp:org:bertolinux:qbittorrentapp:R_id:textview_dlspeed"></ppe:IntegerEditor>
+		<ppe:IntegerEditor input="{Binding}"
+			property="rootmodel:QBittorrentApp:org:bertolinux:qbittorrentapp:R_id:textview_eta"></ppe:IntegerEditor>
+		<ppe:IntegerEditor input="{Binding}"
+			property="rootmodel:QBittorrentApp:org:bertolinux:qbittorrentapp:R_id:textview_name"></ppe:IntegerEditor>
+		<ppe:IntegerEditor input="{Binding}"
+			property="rootmodel:QBittorrentApp:org:bertolinux:qbittorrentapp:R_id:textview_port"></ppe:IntegerEditor>
+		<ppe:IntegerEditor input="{Binding}"
+			property="rootmodel:QBittorrentApp:org:bertolinux:qbittorrentapp:R_id:textview_progress"></ppe:IntegerEditor>
+		<ppe:IntegerEditor input="{Binding}"
+			property="rootmodel:QBittorrentApp:org:bertolinux:qbittorrentapp:R_id:textview_size"></ppe:IntegerEditor>
+		<ppe:IntegerEditor input="{Binding}"
+			property="rootmodel:QBittorrentApp:org:bertolinux:qbittorrentapp:R_id:username"></ppe:IntegerEditor>
+		<ppe:IntegerEditor input="{Binding}"
+			property="rootmodel:QBittorrentApp:org:bertolinux:qbittorrentapp:R_id:username1"></ppe:IntegerEditor>
+	</Composite>
+</Composite>
