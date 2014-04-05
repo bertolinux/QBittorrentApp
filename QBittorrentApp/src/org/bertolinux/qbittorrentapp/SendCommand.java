@@ -12,6 +12,11 @@ public class SendCommand extends QBitConnection implements QBitManagerConnection
 		this.dialog = dialog;
 	}
 	
+	public SendCommand(MainActivity activity, String command, String hash, Dialog dialog, boolean newVersion) {
+		this(activity, command, hash, dialog);
+		setNewVersion();
+	}
+	
 	public void onPostExecute(String result) {
 		dialog.dismiss();
 		myactivity.refreshTorrentList();

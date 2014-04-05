@@ -34,9 +34,14 @@ public abstract class QBitConnection extends AsyncTask<QBitConnectionData, Void,
 
 	protected MainActivity myactivity;
 	protected File upload; 
+	protected boolean newVersion = false; 
 	
 	public QBitConnection(MainActivity activity) {
 		myactivity = activity;
+	}
+	
+	protected void setNewVersion() {
+		this.newVersion = true;
 	}
 	
 	public void setSpecificUrl(String text) {
@@ -51,7 +56,10 @@ public abstract class QBitConnection extends AsyncTask<QBitConnectionData, Void,
 		if (this.hash == null)
 			return;
 		List<NameValuePair> nameValuePairs = new ArrayList<NameValuePair>(2);
-        nameValuePairs.add(new BasicNameValuePair("hash", this.hash));
+        if (this.newVersion)
+        	nameValuePairs.add(new BasicNameValuePair("hashes", this.hash));
+        else
+        	nameValuePairs.add(new BasicNameValuePair("hash", this.hash));
         try {
 			job.setEntity(new UrlEncodedFormEntity(nameValuePairs));
 		} catch (UnsupportedEncodingException e) {

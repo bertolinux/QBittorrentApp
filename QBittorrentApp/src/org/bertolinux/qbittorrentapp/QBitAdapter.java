@@ -91,12 +91,14 @@ class QBitAdapter extends ArrayAdapter<TDownload> {
 	    	    	public void onClick(View v1) {
 	    	    		v1.setClickable(false);
 	    	            new SendCommand(myactivity,"delete",hash, dialog).execute(myactivity.getConnectionData());
+	    	            new SendCommand(myactivity,"delete",hash, dialog, true).execute(myactivity.getConnectionData());
 	    	    	}
 	        	});
 	    		DeleteFromDisk.setOnClickListener(new OnClickListener() {
 	    	    	public void onClick(View v1) {
 	    	    		v1.setClickable(false);
 	    	            new SendCommand(myactivity,"deletePerm",hash, dialog).execute(myactivity.getConnectionData() );
+	    	            new SendCommand(myactivity,"deletePerm",hash, dialog, true).execute(myactivity.getConnectionData() );
 	    	    	}
 	        	});
 	    		dialog.show();
