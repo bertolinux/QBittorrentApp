@@ -15,9 +15,11 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 
 class QBitAdapter extends ArrayAdapter<TDownload> {
-
+	protected MainActivity myactivity;
+	
 	public QBitAdapter(Context context, int textViewResourceId, List<TDownload> list) {
 		super(context, textViewResourceId, list);
+		myactivity = (MainActivity) context;
 	}
 	
     @Override
@@ -76,41 +78,27 @@ class QBitAdapter extends ArrayAdapter<TDownload> {
 	    		Stop.setOnClickListener(new OnClickListener() {
 	    	    	public void onClick(View v1) {
 	    	    		v1.setClickable(false);
-	    	            Object[] command = new Object[3];
-	    	            command[0] = new String("pause");
-	    	            command[1] = new String(hash);
-	    	            command[2] = (Dialog) dialog;
-	    	            new SendCommand((MainActivity) getContext()).execute(command);
+	    	            new SendCommand(myactivity,"pause",hash, dialog).execute(myactivity.getConnectionData());
 	    	    	}
 	        	});
 	    		Start.setOnClickListener(new OnClickListener() {
 	    	    	public void onClick(View v1) {
 	    	    		v1.setClickable(false);
-	    	            Object[] command = new Object[3];
-	    	            command[0] = new String("resume");
-	    	            command[1] = new String(hash);
-	    	            command[2] = (Dialog) dialog;
-	    	            new SendCommand((MainActivity) getContext()).execute(command);
+	    	            new SendCommand(myactivity,"resume",hash, dialog).execute(myactivity.getConnectionData());
 	    	    	}
 	        	});
 	    		Delete.setOnClickListener(new OnClickListener() {
 	    	    	public void onClick(View v1) {
 	    	    		v1.setClickable(false);
-	    	            Object[] command = new Object[3];
-	    	            command[0] = new String("delete");
-	    	            command[1] = new String(hash);
-	    	            command[2] = (Dialog) dialog;
-	    	            new SendCommand((MainActivity) getContext()).execute(command);
+	    	            new SendCommand(myactivity,"delete",hash, dialog).execute(myactivity.getConnectionData());
+	    	            new SendCommand(myactivity,"delete",hash, dialog, true).execute(myactivity.getConnectionData());
 	    	    	}
 	        	});
 	    		DeleteFromDisk.setOnClickListener(new OnClickListener() {
 	    	    	public void onClick(View v1) {
 	    	    		v1.setClickable(false);
-	    	            Object[] command = new Object[3];
-	    	            command[0] = new String("deletePerm");
-	    	            command[1] = new String(hash);
-	    	            command[2] = (Dialog) dialog;
-	    	            new SendCommand((MainActivity) getContext()).execute(command);
+	    	            new SendCommand(myactivity,"deletePerm",hash, dialog).execute(myactivity.getConnectionData() );
+	    	            new SendCommand(myactivity,"deletePerm",hash, dialog, true).execute(myactivity.getConnectionData() );
 	    	    	}
 	        	});
 	    		dialog.show();

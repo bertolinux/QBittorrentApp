@@ -21,4 +21,7 @@
 
     <string name="confirmation">Confirmation</string>
     <string name="confirm">Confirm</string>
+    <string name="upload">upload</string>
+    <string name="Upload">Upload</string>
+    <string name="Total">Total: </string>
 </resources>

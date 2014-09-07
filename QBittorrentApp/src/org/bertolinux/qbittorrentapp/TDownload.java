@@ -25,30 +25,30 @@ class TDownload {
 	}
 
 	public String getName() {
-		return name;
+		return this.name;
 	}
 	
 	public String getSize() {
-		return size;
+		return this.size;
 	}
 	
 	public String getProgress() {
-		return progress;
+		return this.progress;
 	}
 	
 	public String getDlspeed() {
-		return dlspeed;
+		return this.dlspeed;
 	}
 	
 	public String getEta() {
-		return eta;
+		return this.eta;
 	}
 
 	public String getHash() {
-		return hash;
+		return this.hash;
 	}
 	
 	public String getState() {
-		return state;
+		return this.state;
 	}
 }

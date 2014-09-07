@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.3" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true">  
+  <class id="1" language="java" name="org.bertolinux.qbittorrentapp.TDownload" project="QBittorrentApp" 
+    file="/QBittorrentApp/src/org/bertolinux/qbittorrentapp/TDownload.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="331" width="147" x="143" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="org.bertolinux.qbittorrentapp.GetTorrentList" project="QBittorrentApp" 
+    file="/QBittorrentApp/src/org/bertolinux/qbittorrentapp/GetTorrentList.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="97" width="157" x="236" y="408"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="org.bertolinux.qbittorrentapp.Upload" project="QBittorrentApp" 
+    file="/QBittorrentApp/src/org/bertolinux/qbittorrentapp/Upload.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="115" width="155" x="433" y="408"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="org.bertolinux.qbittorrentapp.QBitDatabase" project="QBittorrentApp" 
+    file="/QBittorrentApp/src/org/bertolinux/qbittorrentapp/QBitDatabase.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="295" width="257" x="536" y="771"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="org.bertolinux.qbittorrentapp.SendCommand" project="QBittorrentApp" 
+    file="/QBittorrentApp/src/org/bertolinux/qbittorrentapp/SendCommand.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="115" width="259" x="628" y="408"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="6" language="java" name="org.bertolinux.qbittorrentapp.QBitDatabase.DbHelper" project="QBittorrentApp" 
+    file="/QBittorrentApp/src/org/bertolinux/qbittorrentapp/QBitDatabase.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="115" width="234" x="536" y="1124"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="7" language="java" name="org.bertolinux.qbittorrentapp.MainActivity.QBitTimer" project="QBittorrentApp" 
+    file="/QBittorrentApp/src/org/bertolinux/qbittorrentapp/MainActivity.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="97" width="126" x="833" y="771"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="8" language="java" name="org.bertolinux.qbittorrentapp.MainActivity" project="QBittorrentApp" 
+    file="/QBittorrentApp/src/org/bertolinux/qbittorrentapp/MainActivity.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="313" width="226" x="927" y="408"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="org.bertolinux.qbittorrentapp.QBitAdapter" project="QBittorrentApp" 
+    file="/QBittorrentApp/src/org/bertolinux/qbittorrentapp/QBitAdapter.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="97" width="229" x="927" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="10" language="java" name="org.bertolinux.qbittorrentapp.QBitConnection" project="QBittorrentApp" 
+    file="/QBittorrentApp/src/org/bertolinux/qbittorrentapp/QBitConnection.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="223" width="246" x="433" y="37"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="11" language="java" name="org.bertolinux.qbittorrentapp.QBitConnectionData" project="QBittorrentApp" 
+    file="/QBittorrentApp/src/org/bertolinux/qbittorrentapp/QBitConnectionData.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="313" width="164" x="999" y="771"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="12" language="java" name="org.bertolinux.qbittorrentapp.QBitManagerConnection" project="QBittorrentApp" 
+    file="/QBittorrentApp/src/org/bertolinux/qbittorrentapp/QBitManagerConnection.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="79" width="164" x="332" y="771"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="13" language="java" name="org.bertolinux.qbittorrentapp.GetTotals" project="QBittorrentApp" 
+    file="/QBittorrentApp/src/org/bertolinux/qbittorrentapp/GetTotals.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="97" width="155" x="41" y="408"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" accessors="true" 
+      visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <nesting id="14">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="7"/>  
+  </nesting>  
+  <nesting id="15">    
+    <end type="SOURCE" refId="4"/>    
+    <end type="TARGET" refId="6"/>  
+  </nesting>  
+  <association id="16">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="17" name="database"/>      
+      <multiplicity id="18" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="4" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="19">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="12"/>  
+  </realization>  
+  <generalization id="20">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <realization id="21">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="12"/>  
+  </realization>  
+  <generalization id="22">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <association id="23">    
+    <end type="SOURCE" refId="9" navigable="false">      
+      <attribute id="24" name="myactivity"/>      
+      <multiplicity id="25" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="26">    
+    <end type="SOURCE" refId="13"/>    
+    <end type="TARGET" refId="12"/>  
+  </realization>  
+  <association id="27">    
+    <end type="SOURCE" refId="4" navigable="false">      
+      <attribute id="28" name="mDbHelper"/>      
+      <multiplicity id="29" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="6" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="30">    
+    <end type="SOURCE" refId="5"/>    
+    <end type="TARGET" refId="12"/>  
+  </realization>  
+  <association id="31">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="32" name="connectionData"/>      
+      <multiplicity id="33" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="11" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <generalization id="34">    
+    <end type="SOURCE" refId="3"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <generalization id="35">    
+    <end type="SOURCE" refId="2"/>    
+    <end type="TARGET" refId="10"/>  
+  </generalization>  
+  <association id="36">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="37" name="myActivity"/>      
+      <multiplicity id="38" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="8" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

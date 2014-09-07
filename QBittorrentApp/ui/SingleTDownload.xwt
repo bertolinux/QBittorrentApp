@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Composite
+	xmlns:ppel="clr-namespace:org.eclipse.papyrus.views.properties.widgets.layout"
+	xmlns="http://www.eclipse.org/xwt/presentation" xmlns:j="clr-namespace:java.lang"
+	xmlns:ppe="clr-namespace:org.eclipse.papyrus.views.properties.widgets"
+	xmlns:x="http://www.eclipse.org/xwt">
+	<Composite.layout>
+		<ppel:PropertiesLayout></ppel:PropertiesLayout>
+	</Composite.layout>
+	<Composite>
+		<Composite.layout>
+			<ppel:PropertiesLayout numColumns="1"></ppel:PropertiesLayout>
+		</Composite.layout>
+		<ppe:ReferenceDialog input="{Binding}"
+			property="rootmodel:QBittorrentApp:org:bertolinux:qbittorrentapp:TDownload:name"></ppe:ReferenceDialog>
+		<ppe:ReferenceDialog input="{Binding}"
+			property="rootmodel:QBittorrentApp:org:bertolinux:qbittorrentapp:TDownload:size"></ppe:ReferenceDialog>
+		<ppe:ReferenceDialog input="{Binding}"
+			property="rootmodel:QBittorrentApp:org:bertolinux:qbittorrentapp:TDownload:progress"></ppe:ReferenceDialog>
+		<ppe:ReferenceDialog input="{Binding}"
+			property="rootmodel:QBittorrentApp:org:bertolinux:qbittorrentapp:TDownload:dlspeed"></ppe:ReferenceDialog>
+		<ppe:ReferenceDialog input="{Binding}"
+			property="rootmodel:QBittorrentApp:org:bertolinux:qbittorrentapp:TDownload:eta"></ppe:ReferenceDialog>
+		<ppe:ReferenceDialog input="{Binding}"
+			property="rootmodel:QBittorrentApp:org:bertolinux:qbittorrentapp:TDownload:hash"></ppe:ReferenceDialog>
+		<ppe:ReferenceDialog input="{Binding}"
+			property="rootmodel:QBittorrentApp:org:bertolinux:qbittorrentapp:TDownload:state"></ppe:ReferenceDialog>
+	</Composite>
+</Composite>
